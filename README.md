@@ -9,7 +9,7 @@ This project is to demonstrate creating a test framework from scratch using the 
 3. Browser Driver Tool: Selenium WedDriver
 4. Testing framework / Style of Writing Tests: TestNG
 5. Build/Dependency Management Tool: Maven
-6. Application Under Test : http://www.amazon.in (default)
+6. Application Under Test : http://www.amazon.in 
 
 ## Requirements
 * Java 8
