@@ -1,0 +1,25 @@
+<suite name="Amazon Online Automation Suite" verbose="1">
+	<test name="Amazon Automation Tests">
+		<listeners>
+			<listener class-name="com.example.resources.TestListener" />
+		</listeners>
+
+		<groups>
+			<define name="include-group">
+				<include name="include.*" />
+			</define>
+			<define name="exclude-group">
+				<include name="exclude.*" />
+			</define>
+			<run>
+				<include name="include-group" />
+				<exclude name="exclude-group" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.example.tests" />
+		</packages>
+	</test>
+
+</suite>
