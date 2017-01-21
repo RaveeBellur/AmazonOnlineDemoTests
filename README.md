@@ -16,7 +16,8 @@ This project is to demonstrate creating a test framework from scratch using the 
 * Maven 3.3
 
 ## Usage
-`mvn test` to run tests 
+`mvn test` to run tests
+
 `mvn clean test` will remove the target directory, all the compiled resources, reports and run tests. 
 
 ### Cross browser
